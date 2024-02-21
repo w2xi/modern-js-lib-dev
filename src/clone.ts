@@ -1,6 +1,6 @@
 import { isObject } from "./type"
 
-export function clone(value: any) {
+export function clone(value?: any) {
   if (!isObject(value)) {
     return value
   }

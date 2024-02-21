@@ -1,5 +1,5 @@
 export function isObject(value: any) {
-  return value != null && type(value) === 'Object'
+  return value != null && typeof value === 'object'
 }
 
 export function type(value: any) {
