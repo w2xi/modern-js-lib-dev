@@ -6,6 +6,10 @@ export function isNumber(value: any) {
   return typeof value === 'number'
 }
 
+export function isString(value: any) {
+  return typeof value === 'string'
+}
+
 export function type(value: any) {
   return Object.prototype.toString.call(value).slice(8, -1).toLowerCase()
 }
