@@ -4,7 +4,7 @@ export default {
   input: 'src/clone.ts',
   output: {
     file: 'dist/clone.cjs.js',
-    format: 'cjs'
+    format: 'cjs',
   },
-  plugins: [typescript()]
+  plugins: [typescript()],
 }

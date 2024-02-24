@@ -1,4 +1,4 @@
-import { clone } from "../src/clone"
+import { clone } from '../src/clone'
 import { test, expect, describe } from 'vitest'
 
 describe('function clone', () => {

@@ -1,11 +1,11 @@
-import { type, isObject } from '../src/type'
+import { type } from '../src/type'
 import { describe, expect, test } from 'vitest'
 
 describe('type function', () => {
   test('number type', () => {
     expect(type(1)).toBe('number')
   })
-  
+
   test('string type', () => {
     expect(type('a')).toBe('string')
   })
@@ -23,6 +23,6 @@ describe('type function', () => {
   })
 
   test('object type', () => {
-    expect(type({a: 1})).toBe('object')
+    expect(type({ a: 1 })).toBe('object')
   })
 })

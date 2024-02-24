@@ -1,4 +1,4 @@
-import { isObject } from "./type"
+import { isObject } from './type'
 
 export function clone(value?: any) {
   if (!isObject(value)) {
@@ -13,6 +13,6 @@ export function clone(value?: any) {
       result[key] = value[key]
     }
   }
-  
+
   return result
 }

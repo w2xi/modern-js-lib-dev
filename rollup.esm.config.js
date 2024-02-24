@@ -4,7 +4,7 @@ export default {
   input: 'src/clone.ts',
   output: {
     file: 'dist/clone.esm.js',
-    format: 'es',
+    format: 'esm',
   },
-  plugins: [typescript()]
+  plugins: [typescript()],
 }
